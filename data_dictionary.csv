@@ -1,0 +1,11 @@
+column,type,description,role
+loan_amount,Numeric,Loan principal amount in synthetic currency units,Predictor
+annual_income,Numeric,Applicant annual income in synthetic currency units,Predictor
+interest_rate,Numeric,Annual interest rate percentage,Predictor
+debt_to_income_ratio,Numeric,Debt-to-income ratio percentage,Predictor
+employment_years,Numeric,Years employed,Predictor
+credit_history_years,Numeric,Years of credit history,Predictor
+prior_delinquencies,Numeric,Count of prior delinquencies,Predictor
+home_ownership,Categorical,Synthetic home ownership category,Predictor
+loan_purpose,Categorical,Synthetic stated loan purpose,Predictor
+default,Binary,"Simulated outcome: 1 default, 0 non-default",Target
